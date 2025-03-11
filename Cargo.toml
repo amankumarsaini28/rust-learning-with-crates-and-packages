@@ -1,0 +1,11 @@
+[package]
+name = "with-crates-and-packages"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "packages/organism",
+    "packages/app",
+    "packages/lib"
+]
