@@ -23,7 +23,7 @@ cargo build
 ### Run Project
 
 ```bash
-cargo run
+cargo run --package app
 ```
 
 ### Importing external crate
